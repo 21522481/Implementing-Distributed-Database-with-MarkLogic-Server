@@ -1,0 +1,297 @@
+<export><workspace name="ChiNhanh2"><query name="InsertHat" focus="false" listorder="1" taborder="2" active="true" database="8222502360633705782" server="9575199164205709786" database-name="Documents" server-name="App-Services" mode="xquery" optimize="">xquery version "1.0-ml";
+
+ xdmp:document-insert("SP-Hat.xml",
+   &lt;products&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H001&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Classic&lt;/TenSP&gt;
+            &lt;Gia&gt;500000&lt;/Gia&gt;
+            &lt;SoLuong&gt;50&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H002&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Elegant&lt;/TenSP&gt;
+            &lt;Gia&gt;750000&lt;/Gia&gt;
+            &lt;SoLuong&gt;40&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H003&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Modern&lt;/TenSP&gt;
+            &lt;Gia&gt;600000&lt;/Gia&gt;
+            &lt;SoLuong&gt;30&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H004&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Sport&lt;/TenSP&gt;
+            &lt;Gia&gt;450000&lt;/Gia&gt;
+            &lt;SoLuong&gt;25&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H005&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Summer&lt;/TenSP&gt;
+            &lt;Gia&gt;550000&lt;/Gia&gt;
+            &lt;SoLuong&gt;20&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H006&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Trendy&lt;/TenSP&gt;
+            &lt;Gia&gt;700000&lt;/Gia&gt;
+            &lt;SoLuong&gt;18&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H007&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Winter&lt;/TenSP&gt;
+            &lt;Gia&gt;800000&lt;/Gia&gt;
+            &lt;SoLuong&gt;15&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H008&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Casual&lt;/TenSP&gt;
+            &lt;Gia&gt;650000&lt;/Gia&gt;
+            &lt;SoLuong&gt;12&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H009&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Chic&lt;/TenSP&gt;
+            &lt;Gia&gt;900000&lt;/Gia&gt;
+            &lt;SoLuong&gt;10&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H010&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Vintage&lt;/TenSP&gt;
+            &lt;Gia&gt;850000&lt;/Gia&gt;
+            &lt;SoLuong&gt;8&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+        &lt;product&gt;
+            &lt;MaSP&gt;H011&lt;/MaSP&gt;
+            &lt;TenSP&gt;Chapeau Exclusive&lt;/TenSP&gt;
+            &lt;Gia&gt;1200000&lt;/Gia&gt;
+            &lt;SoLuong&gt;25&lt;/SoLuong&gt;
+            &lt;CN&gt;CN2&lt;/CN&gt;
+        &lt;/product&gt;
+&lt;/products&gt;
+)</query><query name="InsertRangXay" focus="false" listorder="2" taborder="1" active="true" database="1694051404841145196" server="9575199164205709786" database-name="" server-name="" mode="xquery" optimize="">xquery version "1.0-ml";
+
+xdmp:document-insert("SP-RangXay.xml", 
+    &lt;products&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX001&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Pro&lt;/TenSP&gt;
+        &lt;Gia&gt;3000000&lt;/Gia&gt;
+        &lt;SoLuong&gt;20&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX002&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Ultimate&lt;/TenSP&gt;
+        &lt;Gia&gt;2500000&lt;/Gia&gt;
+        &lt;SoLuong&gt;15&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX003&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Supreme&lt;/TenSP&gt;
+        &lt;Gia&gt;3500000&lt;/Gia&gt;
+        &lt;SoLuong&gt;10&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX004&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Elite&lt;/TenSP&gt;
+        &lt;Gia&gt;4000000&lt;/Gia&gt;
+        &lt;SoLuong&gt;8&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX005&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Deluxe&lt;/TenSP&gt;
+        &lt;Gia&gt;2800000&lt;/Gia&gt;
+        &lt;SoLuong&gt;12&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX006&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Classic&lt;/TenSP&gt;
+        &lt;Gia&gt;3200000&lt;/Gia&gt;
+        &lt;SoLuong&gt;18&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX007&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Modern&lt;/TenSP&gt;
+        &lt;Gia&gt;2700000&lt;/Gia&gt;
+        &lt;SoLuong&gt;14&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX008&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Trendy&lt;/TenSP&gt;
+        &lt;Gia&gt;3100000&lt;/Gia&gt;
+        &lt;SoLuong&gt;10&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX009&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Fresh&lt;/TenSP&gt;
+        &lt;Gia&gt;2600000&lt;/Gia&gt;
+        &lt;SoLuong&gt;6&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX010&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Youth&lt;/TenSP&gt;
+        &lt;Gia&gt;3000000&lt;/Gia&gt;
+        &lt;SoLuong&gt;4&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;RX011&lt;/MaSP&gt;
+        &lt;TenSP&gt;Rang Xay Elite&lt;/TenSP&gt;
+        &lt;Gia&gt;4000000&lt;/Gia&gt;
+        &lt;SoLuong&gt;8&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+&lt;/products&gt;)
+</query><query name="InsertHoaTan" focus="false" listorder="3" taborder="3" active="true" database="1694051404841145196" server="9575199164205709786" database-name="" server-name="" mode="xquery" optimize="">xquery version "1.0-ml";
+
+xdmp:document-insert("SP-HoaTan.xml",
+    &lt;products&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT001&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Premium&lt;/TenSP&gt;
+        &lt;Gia&gt;1200000&lt;/Gia&gt;
+        &lt;SoLuong&gt;30&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT002&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Deluxe&lt;/TenSP&gt;
+        &lt;Gia&gt;900000&lt;/Gia&gt;
+        &lt;SoLuong&gt;25&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT003&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Classic&lt;/TenSP&gt;
+        &lt;Gia&gt;1500000&lt;/Gia&gt;
+        &lt;SoLuong&gt;20&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT004&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Elegant&lt;/TenSP&gt;
+        &lt;Gia&gt;1800000&lt;/Gia&gt;
+        &lt;SoLuong&gt;15&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT005&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Modern&lt;/TenSP&gt;
+        &lt;Gia&gt;1300000&lt;/Gia&gt;
+        &lt;SoLuong&gt;18&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT006&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Trendy&lt;/TenSP&gt;
+        &lt;Gia&gt;1100000&lt;/Gia&gt;
+        &lt;SoLuong&gt;22&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT007&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Summer&lt;/TenSP&gt;
+        &lt;Gia&gt;1600000&lt;/Gia&gt;
+        &lt;SoLuong&gt;12&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT008&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Chic&lt;/TenSP&gt;
+        &lt;Gia&gt;2000000&lt;/Gia&gt;
+        &lt;SoLuong&gt;10&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT009&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Fresh&lt;/TenSP&gt;
+        &lt;Gia&gt;1400000&lt;/Gia&gt;
+        &lt;SoLuong&gt;8&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT010&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Youth&lt;/TenSP&gt;
+        &lt;Gia&gt;1700000&lt;/Gia&gt;
+        &lt;SoLuong&gt;6&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+    &lt;product&gt;
+        &lt;MaSP&gt;HT011&lt;/MaSP&gt;
+        &lt;TenSP&gt;Hoa Tan Supreme&lt;/TenSP&gt;
+        &lt;Gia&gt;2000000&lt;/Gia&gt;
+        &lt;SoLuong&gt;15&lt;/SoLuong&gt;
+        &lt;CN&gt;CN2&lt;/CN&gt;
+    &lt;/product&gt;
+&lt;/products&gt;
+)</query><query name="ThemMoi" focus="false" listorder="4" taborder="4" active="true" database="1694051404841145196" server="9575199164205709786" database-name="" server-name="" mode="xquery" optimize="">xquery version "1.0-ml";
+
+xdmp:node-insert-child(doc("SP-Hat.xml/products"),
+  &lt;product&gt;
+    &lt;MaSP&gt;H0012&lt;/MaSP&gt;
+    &lt;TenSP&gt;Chapeau Classic&lt;/TenSP&gt;
+    &lt;Gia&gt;500000&lt;/Gia&gt;
+    &lt;SoLuong&gt;50&lt;/SoLuong&gt;
+    &lt;CN&gt;CN1&lt;/CN&gt;
+  &lt;/product&gt;)
+
+
+</query><query name="KiemTra" focus="false" listorder="5" taborder="5" active="true" database="10505027820564303117" server="9575199164205709786" database-name="" server-name="" mode="xquery" optimize="">xquery version "1.0-ml";
+
+(:
+doc("SP-Hat.xml")//product[MaSP="H001"]
+:)
+
+(:
+for $product in doc("SP-Hat.xml")//product
+where  $product[MaSP="H001"]
+return $product
+:)
+
+(:
+for $product in doc("SP-Hat.xml")//product
+order by $product/Gia
+return $product
+:)
+
+
+</query><query name="Xoa" focus="false" listorder="6" taborder="6" active="true" database="10505027820564303117" server="9575199164205709786" database-name="" server-name="" mode="xquery" optimize="">xquery version "1.0-ml";
+
+(:
+xdmp:node-delete(doc("SP-Hat.xml")//product[MaSP="H011"])
+:)
+(:
+for $product in doc("SP-Hat.xml")//product
+where $product[MaSP="H011"]
+return
+    xdmp:node-delete($product) :)
+   </query><query name="Sua" focus="false" listorder="7" taborder="7" active="true" database="10505027820564303117" server="9575199164205709786" database-name="" server-name="" mode="xquery" optimize="">xquery version "1.0-ml";
+
+(:
+xdmp:node-replace(doc("SP-Hat.xml")//product[MaSP="H001"]/SoLuong, &lt;SoLuong&gt;60&lt;/SoLuong&gt;)
+:)
+
+for $product in doc("SP-Hat.xml")//product
+where $product[MaSP="H001"]
+return
+    xdmp:node-replace($product/SoLuong, &lt;SoLuong&gt;50&lt;/SoLuong&gt;)</query></workspace></export>
